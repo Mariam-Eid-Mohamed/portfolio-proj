@@ -1,5 +1,6 @@
 import styles from "./work.module.css";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import WorkImg1 from "../../assets/img-1-C4nS0eD8.jpg";
 import WorkImg2 from "../../assets/img-2-D-4H1m4L.jpg";
 import WorkImg3 from "../../assets/img-3-pR2ZEVY9.jpg";
@@ -28,26 +29,163 @@ function Work() {
 
           <div className="row g-5 mt-1 ">
             <div className="col-lg-6 col-sm-12 ">
-              <div className="work-img  ">
-                <div className="img-layer "></div>
+              <div className={`${styles.workImgWrapper}  `}>
+                <div
+                  className={`${styles.imgOverlay}   d-flex flex-column  justify-content-around `}
+                >
+                  <div className="d-flex flex-column  mx-3 ">
+                    <Link to="#" className=" text-white fs-5 ">
+                      WORK 02
+                    </Link>
+                    <span className=" text-white mt-3">Animation</span>
+                  </div>
+                  <div className="icons d-flex align-items-center gap-3 mx-3  ">
+                    <Link className=" text-dark">
+                      <span className={`${styles.iconBox}`}>
+                        <i className="fa-solid fa-share-nodes  "></i>
+                      </span>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} eyeicon d-flex  align-items-center`}
+                      >
+                        <i className="fa-solid fa-eye  me-1"></i>
+
+                        <span className=" text-dark">100</span>
+                      </div>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} d-flex  align-items-center`}
+                      >
+                        <i className="fa-regular fa-heart text-dark me-1"></i>
+
+                        <span>49</span>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
                 <img src={WorkImg1} alt="" className={styles.workImg} />
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12">
-              <div className="work-img">
-                <div className="img-layer"></div>
+            <div className="col-lg-6 col-sm-12 ">
+              <div className={`${styles.workImgWrapper}  `}>
+                <div
+                  className={`${styles.imgOverlay}   d-flex flex-column  justify-content-around `}
+                >
+                  <div className="d-flex flex-column  mx-3 ">
+                    <Link to="#" className=" text-white fs-5 ">
+                      WORK 02
+                    </Link>
+                    <span className=" text-white mt-3">Animation</span>
+                  </div>
+                  <div className="icons d-flex align-items-center gap-3 mx-3  ">
+                    <Link className=" text-dark">
+                      <span className={`${styles.iconBox}`}>
+                        <i className="fa-solid fa-share-nodes  "></i>
+                      </span>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} eyeicon d-flex  align-items-center`}
+                      >
+                        <i className="fa-solid fa-eye  me-1"></i>
+
+                        <span className=" text-dark">100</span>
+                      </div>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} d-flex  align-items-center`}
+                      >
+                        <i className="fa-regular fa-heart text-dark me-1"></i>
+
+                        <span>49</span>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
                 <img src={WorkImg2} alt="" className={styles.workImg} />
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12">
-              <div className="work-img">
-                <div className="img-layer"></div>
-                <img src={WorkImg3} className={styles.workImg} alt="" />
+
+            <div className="col-lg-6 col-sm-12 ">
+              <div className={`${styles.workImgWrapper}  `}>
+                <div
+                  className={`${styles.imgOverlay}   d-flex flex-column  justify-content-around `}
+                >
+                  <div className="d-flex flex-column  mx-3 ">
+                    <Link to="#" className=" text-white fs-5 ">
+                      WORK 02
+                    </Link>
+                    <span className=" text-white mt-3">Animation</span>
+                  </div>
+                  <div className="icons d-flex align-items-center gap-3 mx-3  ">
+                    <Link className=" text-dark">
+                      <span className={`${styles.iconBox}`}>
+                        <i className="fa-solid fa-share-nodes  "></i>
+                      </span>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} eyeicon d-flex  align-items-center`}
+                      >
+                        <i className="fa-solid fa-eye  me-1"></i>
+
+                        <span className=" text-dark">100</span>
+                      </div>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} d-flex  align-items-center`}
+                      >
+                        <i className="fa-regular fa-heart text-dark me-1"></i>
+
+                        <span>49</span>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+                <img src={WorkImg3} alt="" className={styles.workImg} />
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12">
-              <div className="work-img">
-                <div className="img-layer"></div>
+            <div className="col-lg-6 col-sm-12 ">
+              <div className={`${styles.workImgWrapper}  `}>
+                <div
+                  className={`${styles.imgOverlay}   d-flex flex-column  justify-content-around `}
+                >
+                  <div className="d-flex flex-column  mx-3 ">
+                    <Link to="#" className=" text-white fs-5 ">
+                      WORK 02
+                    </Link>
+                    <span className=" text-white mt-3">Animation</span>
+                  </div>
+                  <div className="icons d-flex align-items-center gap-3 mx-3  ">
+                    <Link className=" text-dark">
+                      <span className={`${styles.iconBox}`}>
+                        <i className="fa-solid fa-share-nodes  "></i>
+                      </span>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} eyeicon d-flex  align-items-center`}
+                      >
+                        <i className="fa-solid fa-eye  me-1"></i>
+
+                        <span className=" text-dark">100</span>
+                      </div>
+                    </Link>
+                    <Link className="text-dark text-decoration-none">
+                      <div
+                        className={`${styles.iconBox} d-flex  align-items-center`}
+                      >
+                        <i className="fa-regular fa-heart text-dark me-1"></i>
+
+                        <span>49</span>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
                 <img src={WorkImg4} alt="" className={styles.workImg} />
               </div>
             </div>

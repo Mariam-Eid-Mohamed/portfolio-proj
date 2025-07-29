@@ -17,7 +17,7 @@ function SideBar() {
         <i className="fa-solid fa-bars"></i>
       </button>
 
-      <div className="  sidebar vh-100 d-md-flex flex-column align-items-center p-3 playfair-font w-100">
+      <div className=" min-vh-100 sidebar d-md-flex flex-column align-items-center p-3 playfair-font w-100">
         <div className="img-div ">
           <img
             src={profileImg}
