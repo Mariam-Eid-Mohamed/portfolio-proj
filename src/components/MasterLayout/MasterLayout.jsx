@@ -4,7 +4,7 @@ function MasterLayout() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row g-0">
+        <div className="row  ">
           <div className="col-sm-12 col-md-3 col-lg-3 col-xl-2">
             <SideBar />
           </div>
