@@ -20,13 +20,13 @@ function Work() {
         <div className=" w-75  my-4  playfair-font">
           <p className="text-secondary mt-4 fs-6">MY WORK</p>
           <h5 className="fw-bold my-4 ">RECENT WORK</h5>
-          <NavLink to="" className="text-decoration-none me-3">
+          <NavLink to="#" className="text-decoration-none me-3">
             Graphic Design
           </NavLink>
-          <NavLink to="" className="text-decoration-none  me-3">
+          <NavLink to="#" className="text-decoration-none  me-3">
             Apps
           </NavLink>
-          <NavLink to="" className="text-decoration-none  me-3">
+          <NavLink to="#" className="text-decoration-none  me-3">
             Software
           </NavLink>
 

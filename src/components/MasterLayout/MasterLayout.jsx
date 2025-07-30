@@ -4,11 +4,11 @@ function MasterLayout() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row  ">
-          <div className="col-sm-12 col-md-3 col-lg-3 col-xl-2 ">
+        <div className="row g-0  ">
+          <div className="col-lg-3 p-0 position-fixed vh-100 overflow-auto ">
             <SideBar />
           </div>
-          <div className="col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <div className="col-lg-9 offset-lg-3">
             <Outlet />
           </div>
         </div>

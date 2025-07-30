@@ -8,13 +8,17 @@ function Home() {
     <>
       <div
         id="carouselExampleFade"
-        className="carousel slide carousel-fade"
+        className="carousel slide carousel-fade "
         data-bs-ride="carousel"
         data-bs-interval="2000"
       >
         <div className="carousel-inner w-100 vh-100">
-          <div className="carousel-item active position-relative ">
-            <img src={HomeImg1} className="d-block w-100" alt="..." />
+          <div className="carousel-item active position-relative  w-100 h-100 ">
+            <img
+              src={HomeImg1}
+              className="d-block w-100  h-100 object-fit-cover"
+              alt="..."
+            />
             <div className="carousel-content position-absolute   playfair-font ">
               <h2 className="fw-semibold fs-1"> Hi!</h2>
               <h2 className="fw-semibold fs-1">Im Jackson</h2>
@@ -35,8 +39,12 @@ function Home() {
               </button>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src={HomeImg2} className="d-block w-100" alt="..." />
+          <div className="carousel-item  w-100 h-100">
+            <img
+              src={HomeImg2}
+              className="d-block w-100 h-100 object-fit-cover"
+              alt="..."
+            />
             <div className="carousel-content position-absolute   playfair-font ">
               <h2 className="fw-semibold fs-1"> I am</h2>
               <h2 className="fw-semibold fs-1 mb-2">a Designer</h2>

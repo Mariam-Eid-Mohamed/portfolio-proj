@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <>
-      <div className=" container skills-content  d-flex flex-column align-items-center py-5 mt-5 vh-100 ">
+      <div className=" container skills-content  d-flex flex-column align-items-center flex-grow-1">
         <div className="content w-75 mt-5 ">
           <span className="text-secondary mb-3">MY SPECIALTY</span>
           <h3 className="semi-bold my-lg-3">MY SKILLS</h3>
