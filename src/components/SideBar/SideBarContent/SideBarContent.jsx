@@ -25,7 +25,7 @@ function SideBarContent({ profileImg }) {
       <ul className="list-unstyled d-flex flex-column gap-2 ">
         <li>
           <NavLink
-            to="home"
+            to="/home"
             className={({ isActive }) =>
               `text-decoration-none text-dark small-text nav-link-underline ${
                 isActive ? "active-link" : ""
@@ -37,7 +37,7 @@ function SideBarContent({ profileImg }) {
         </li>
         <li>
           <NavLink
-            to="about"
+            to="/about"
             className={({ isActive }) =>
               `text-decoration-none text-dark small-text  nav-link-underline ${
                 isActive ? "active-link" : ""
@@ -49,7 +49,7 @@ function SideBarContent({ profileImg }) {
         </li>
         <li>
           <NavLink
-            to="skills"
+            to="/skills"
             className={({ isActive }) =>
               `text-decoration-none text-dark small-text  nav-link-underline ${
                 isActive ? "active-link" : ""
@@ -61,7 +61,7 @@ function SideBarContent({ profileImg }) {
         </li>
         <li>
           <NavLink
-            to="experience"
+            to="/experience"
             className={({ isActive }) =>
               `text-decoration-none text-dark small-text  nav-link-underline ${
                 isActive ? "active-link" : ""
@@ -73,7 +73,7 @@ function SideBarContent({ profileImg }) {
         </li>
         <li>
           <NavLink
-            to="work"
+            to="/work"
             className={({ isActive }) =>
               `text-decoration-none text-dark small-text  nav-link-underline ${
                 isActive ? "active-link" : ""
