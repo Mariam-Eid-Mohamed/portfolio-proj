@@ -9,7 +9,7 @@ function SideBar() {
     <>
       {/* toggle button to be shown in mobile and small screens */}
       <button
-        className="btn btn-dark d-lg-none m-3"
+        className="btn btn-dark d-lg-none m-3 position-absolute "
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#mobileSidebar"

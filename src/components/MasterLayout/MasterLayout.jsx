@@ -5,7 +5,7 @@ function MasterLayout() {
     <>
       <div className="container-fluid">
         <div className="row g-0  ">
-          <div className="col-lg-3 p-0 position-fixed vh-100 overflow-auto ">
+          <div className="col-lg-3 p-0 position-fixed vh-100 overflow-auto z-3 ">
             <SideBar />
           </div>
           <div className="col-lg-9 offset-lg-3">

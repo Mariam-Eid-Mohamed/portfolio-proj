@@ -19,7 +19,7 @@ function Home() {
               className="d-block w-100  h-100 object-fit-cover"
               alt="..."
             />
-            <div className="carousel-content position-absolute   playfair-font ">
+            <div className="carousel-content position-absolute z-1 playfair-font ">
               <h2 className="fw-semibold fs-1"> Hi!</h2>
               <h2 className="fw-semibold fs-1">Im Jackson</h2>
               <div className="fs-5">
